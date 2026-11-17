@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-navy: #0B1F3A;
+  --color-navy-hover: #142d52;
+  --color-navy-light: #1A365D;
+  --color-main-bg: #F8F8F5;
+  --color-card-bg: #FFFFFF;
+  --color-primary-text: #172033;
+  --color-secondary-text: #667085;
+  --color-border-subtle: #E5E7EB;
+  --color-accent-blue: #3B82F6;
+  --color-accent-hover: #2563EB;
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-error: #B91C1C;
+}
+
+@layer base {
+  body {
+    background-color: #F8F8F5;
+    color: #172033;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom Leaflet Map styling for modern SaaS feel */
+  .leaflet-container {
+    font-family: inherit;
+    border-radius: 1rem;
+    z-index: 10;
+  }
+
+  .leaflet-popup-content-wrapper {
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
+    padding: 0;
+  }
+
+  .leaflet-popup-content {
+    margin: 0.75rem 1rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+}

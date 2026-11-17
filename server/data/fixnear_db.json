@@ -1,0 +1,999 @@
+{
+  "users": [
+    {
+      "id": "user-admin-01",
+      "name": "FixNear Administrator",
+      "phone": "9999999999",
+      "email": "admin@fixnear.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "admin",
+      "pincode": "411038",
+      "address": "FixNear HQ, FC Road, Pune",
+      "language": "English",
+      "createdAt": "2026-10-25T19:34:06.557Z"
+    },
+    {
+      "id": "user-cust-01",
+      "name": "Demo Customer",
+      "phone": "9881122334",
+      "email": "customer@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "Flat 402, Mayur Colony, Kothrud, Pune",
+      "language": "Hindi",
+      "createdAt": "2026-10-25T19:34:06.558Z"
+    },
+    {
+      "id": "user-prov-1",
+      "name": "Ramesh Shinde Plumbing",
+      "phone": "9822012345",
+      "email": "rameshshindeplumbing@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.558Z"
+    },
+    {
+      "id": "user-prov-2",
+      "name": "Farooq Shaikh Quick Plumbing",
+      "phone": "9822987654",
+      "email": "farooqshaikhquickplumbing@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411005",
+      "address": "Shivaji Nagar, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-3",
+      "name": "Suresh Joshi Electrical Works",
+      "phone": "9765432101",
+      "email": "sureshjoshielectricalworks@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411004",
+      "address": "Deccan Gymkhana, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-4",
+      "name": "Ganesh Patil Electrical Care",
+      "phone": "9850123478",
+      "email": "ganeshpatilelectricalcare@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411045",
+      "address": "Baner, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-5",
+      "name": "CoolAir Solutions Pune (Vikram Deshmukh)",
+      "phone": "9860112233",
+      "email": "coolairsolutionspunevikramdeshmukh@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411014",
+      "address": "Viman Nagar, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-6",
+      "name": "Deepak Kulkarni AC Engineering",
+      "phone": "9922887766",
+      "email": "deepakkulkarniacengineering@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411007",
+      "address": "Aundh, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-7",
+      "name": "Amit More QuickFix Appliances",
+      "phone": "9763445566",
+      "email": "amitmorequickfixappliances@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411006",
+      "address": "Kalyani Nagar, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-8",
+      "name": "Sunil Sutar Woodcraft",
+      "phone": "9823332211",
+      "email": "sunilsutarwoodcraft@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411057",
+      "address": "Hinjewadi, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-9",
+      "name": "Priya Jadhav Home Hygiene",
+      "phone": "9970771122",
+      "email": "priyajadhavhomehygiene@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411028",
+      "address": "Hadapsar, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "user-prov-10",
+      "name": "Swachh Pune Deep Cleaning",
+      "phone": "9890011223",
+      "email": "swachhpunedeepcleaning@demo.in",
+      "passwordHash": "$2b$10$Ja7Hbks2pi7H4TmtBlLi3uggngI2KHHOsxBQJ99r/kuvHG5ZbL79.",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Marathi",
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "name": "Demo Plumber",
+      "phone": "9823474772",
+      "passwordHash": "$2b$10$Tm6/hMlHsaARima65XXhyua21ZisQ9z1GdJNvm/AJ3FASxxDV9/TO",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Hindi",
+      "id": "user-mvo9ct55-423",
+      "createdAt": "2026-10-25T20:06:04.937Z"
+    },
+    {
+      "name": "Demo Customer",
+      "phone": "9792694258",
+      "passwordHash": "$2b$10$0BVidUmwroPUY3nIp9XIheIOwwybQz9GNpVZCJYQXs/ijEugGAs12",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "Flat 101, Anand Nagar, Kothrud",
+      "language": "Hindi",
+      "id": "user-mvo9ct8t-119",
+      "createdAt": "2026-10-25T20:06:05.069Z"
+    },
+    {
+      "name": "Demo Plumber",
+      "phone": "9870425697",
+      "passwordHash": "$2b$10$xtZZbzARoqVwrcUBZ05ayuwuk6G3XBsapJWeokvDsVf1n03VYVuwm",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Hindi",
+      "id": "user-mvo9tjic-194",
+      "createdAt": "2026-10-25T20:19:05.604Z"
+    },
+    {
+      "name": "Demo Customer",
+      "phone": "9756597384",
+      "passwordHash": "$2b$10$NnXuDaC5J2aIPpVqTOE7SO.W45kvx4ZC4m5NncLfL7fLLZzh2Esn2",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "Flat 101, Anand Nagar, Kothrud",
+      "language": "Hindi",
+      "id": "user-mvo9tjn6-567",
+      "createdAt": "2026-10-25T20:19:05.778Z"
+    },
+    {
+      "name": "Demo Plumber",
+      "phone": "9816043331",
+      "passwordHash": "$2b$10$Qow3FbeY8HvziR.ZXipCEutxqLAALZ5q1.j0FH8K3my20k8m3.1im",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Hindi",
+      "id": "user-mvoy7gpu-330",
+      "createdAt": "2026-10-26T07:41:45.954Z"
+    },
+    {
+      "name": "Demo Customer",
+      "phone": "9768639413",
+      "passwordHash": "$2b$10$ZMAD4GxgOZxYNWQj6Rc2KuKwjHbGPn1NSkIZJ190xLYwd29xrmbTq",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "Flat 101, Anand Nagar, Kothrud",
+      "language": "Hindi",
+      "id": "user-mvoy7gvk-137",
+      "createdAt": "2026-10-26T07:41:46.160Z"
+    },
+    {
+      "name": "Demo Plumber",
+      "phone": "9822780594",
+      "passwordHash": "$2b$10$tCtfM5Lc1RzkcfO/JrXNB.SncRWFZJlTzrTx82apa2VhkMAF1yHEK",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "Kothrud, Pune",
+      "language": "Hindi",
+      "id": "user-mvoylsxa-242",
+      "createdAt": "2026-10-26T07:52:54.958Z"
+    },
+    {
+      "name": "Demo Customer",
+      "phone": "9765384586",
+      "passwordHash": "$2b$10$PwOkmFFWAs4mB.rnUFo20eF.wIZFqYktgzTvMJYsPqXJ7Hi7YB.EW",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "Flat 101, Anand Nagar, Kothrud",
+      "language": "Hindi",
+      "id": "user-mvoylt4i-484",
+      "createdAt": "2026-10-26T07:52:55.218Z"
+    },
+    {
+      "name": "Rutuja Mayachari",
+      "phone": "9359206996",
+      "email": "rutumayachari@gmail.com",
+      "passwordHash": "$2b$10$rS7trmYxYqExQr0R7JYuoeCQe9p1r9ZYqsYsvfG93zmd.Jmu7Z2Ju",
+      "role": "customer",
+      "pincode": "411038",
+      "address": "flat 302,mayur colony,paud road ,kothrud ,pune",
+      "language": "English",
+      "id": "user-mvq9pseb-496",
+      "createdAt": "2026-10-27T05:51:42.851Z"
+    },
+    {
+      "name": "Ramesh Patil",
+      "phone": "7666327797",
+      "email": "rameshpatil@gmail.com",
+      "passwordHash": "$2b$10$UI5tj5t.WZvWDR1COu5Hb.qWwCrkJmF1BvOdQUDx73IycGtQLVwl6",
+      "role": "helper",
+      "pincode": "411038",
+      "address": "kothrud ,paud road",
+      "language": "Hindi",
+      "id": "user-mvq9w4wq-289",
+      "createdAt": "2026-10-27T05:56:39.002Z"
+    }
+  ],
+  "helpers": [
+    {
+      "userId": "user-mvq9w4wq-289",
+      "name": "Ramesh plumbing",
+      "tagline": "Reliable plumbing specialist serving kothrud ,paud road and nearby areas.",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "7666327797",
+      "email": "rameshpatil@gmail.com",
+      "city": "Pune",
+      "areas": [
+        "kothrud ,paud road"
+      ],
+      "pincodes": [
+        "411038"
+      ],
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "startingPrice": 199,
+      "rating": 5,
+      "reviewCount": 1,
+      "experienceYears": 3,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "✨ Verified Helper",
+      "bio": "Experienced in home plumbing. Prompt service, transparent rates, and high quality workmanship.",
+      "languages": [
+        "Hindi",
+        "Marathi"
+      ],
+      "id": "helper-mvq9w4ws-976",
+      "createdAt": "2026-10-27T05:56:39.004Z"
+    },
+    {
+      "userId": "user-mvoylsxa-242",
+      "name": "Demo Plumber Plumbing Service",
+      "tagline": "Reliable plumbing specialist serving Kothrud, Pune and nearby areas.",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9822780594",
+      "city": "Pune",
+      "areas": [
+        "Kothrud, Pune"
+      ],
+      "pincodes": [
+        "411038"
+      ],
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "startingPrice": 199,
+      "rating": 5,
+      "reviewCount": 1,
+      "experienceYears": 5,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "✨ Verified Helper",
+      "bio": "Experienced in home plumbing. Prompt service, transparent rates, and high quality workmanship.",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ],
+      "id": "helper-mvoylsxc-712",
+      "createdAt": "2026-10-26T07:52:54.960Z"
+    },
+    {
+      "userId": "user-mvoy7gpu-330",
+      "name": "Demo Plumber Plumbing Service",
+      "tagline": "Reliable plumbing specialist serving Kothrud, Pune and nearby areas.",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9816043331",
+      "city": "Pune",
+      "areas": [
+        "Kothrud, Pune"
+      ],
+      "pincodes": [
+        "411038"
+      ],
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "startingPrice": 199,
+      "rating": 5,
+      "reviewCount": 1,
+      "experienceYears": 5,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "✨ Verified Helper",
+      "bio": "Experienced in home plumbing. Prompt service, transparent rates, and high quality workmanship.",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ],
+      "id": "helper-mvoy7gpx-206",
+      "createdAt": "2026-10-26T07:41:45.957Z"
+    },
+    {
+      "userId": "user-mvo9tjic-194",
+      "name": "Demo Plumber Plumbing Service",
+      "tagline": "Reliable plumbing specialist serving Kothrud, Pune and nearby areas.",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9870425697",
+      "city": "Pune",
+      "areas": [
+        "Kothrud, Pune"
+      ],
+      "pincodes": [
+        "411038"
+      ],
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "startingPrice": 199,
+      "rating": 5,
+      "reviewCount": 1,
+      "experienceYears": 5,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "✨ Verified Helper",
+      "bio": "Experienced in home plumbing. Prompt service, transparent rates, and high quality workmanship.",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ],
+      "id": "helper-mvo9tjid-814",
+      "createdAt": "2026-10-25T20:19:05.605Z"
+    },
+    {
+      "userId": "user-mvo9ct55-423",
+      "name": "Demo Plumber Plumbing Service",
+      "tagline": "Reliable plumbing specialist serving Kothrud, Pune and nearby areas.",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9823474772",
+      "city": "Pune",
+      "areas": [
+        "Kothrud, Pune"
+      ],
+      "pincodes": [
+        "411038"
+      ],
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "startingPrice": 199,
+      "rating": 5,
+      "reviewCount": 1,
+      "experienceYears": 5,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "✨ Verified Helper",
+      "bio": "Experienced in home plumbing. Prompt service, transparent rates, and high quality workmanship.",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ],
+      "id": "helper-mvo9ct57-352",
+      "createdAt": "2026-10-25T20:06:04.939Z"
+    },
+    {
+      "id": "prov-01",
+      "userId": "user-prov-1",
+      "name": "Ramesh Shinde Plumbing",
+      "tagline": "Expert in high-pressure leakages & bathroom sanitary fittings",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9822012345",
+      "city": "Pune",
+      "areas": [
+        "Kothrud",
+        "Karve Nagar",
+        "Deccan Gymkhana",
+        "Paud Road"
+      ],
+      "pincodes": [
+        "411038",
+        "411052",
+        "411004",
+        "411029"
+      ],
+      "coordinates": {
+        "lat": 18.5074,
+        "lng": 73.8077
+      },
+      "startingPrice": 199,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "experienceYears": 9,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Top Rated",
+      "bio": "Over 9 years of hands-on plumbing across Kothrud and West Pune. Specializes in concealed pipe leakage, CP bathroom fittings, flush tanks, and booster pump installations.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-02",
+      "userId": "user-prov-2",
+      "name": "Farooq Shaikh Quick Plumbing",
+      "tagline": "Prompt pipe repair, drain unclogging & geyser inlet lines",
+      "category": "plumbing",
+      "additionalCategories": [],
+      "phone": "9822987654",
+      "city": "Pune",
+      "areas": [
+        "Shivaji Nagar",
+        "FC Road",
+        "Model Colony",
+        "Swargate"
+      ],
+      "pincodes": [
+        "411005",
+        "411004",
+        "411016",
+        "411042"
+      ],
+      "coordinates": {
+        "lat": 18.5314,
+        "lng": 73.8446
+      },
+      "startingPrice": 249,
+      "rating": 4.7,
+      "reviewCount": 98,
+      "experienceYears": 7,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Fast Response",
+      "bio": "Known for speedy arrival across Central Pune and Shivaji Nagar. Carries common spare washers, Teflon tapes, and PVC connectors for immediate resolution.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English",
+        "Urdu"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-03",
+      "userId": "user-prov-3",
+      "name": "Suresh Joshi Electrical Works",
+      "tagline": "Government-certified wireman for MCB tripping & switches",
+      "category": "electrical",
+      "additionalCategories": [],
+      "phone": "9765432101",
+      "city": "Pune",
+      "areas": [
+        "Deccan Gymkhana",
+        "Sadashiv Peth",
+        "Kothrud",
+        "Erandwane"
+      ],
+      "pincodes": [
+        "411004",
+        "411030",
+        "411038",
+        "411004"
+      ],
+      "coordinates": {
+        "lat": 18.5173,
+        "lng": 73.8415
+      },
+      "startingPrice": 199,
+      "rating": 4.9,
+      "reviewCount": 215,
+      "experienceYears": 12,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Top Rated",
+      "bio": "Experienced electrician certified in domestic wiring. Rapid fault detection for tripping circuit breakers, short circuits, and complete inverter setups.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-04",
+      "userId": "user-prov-4",
+      "name": "Ganesh Patil Electrical Care",
+      "tagline": "Ceiling fans, decorative lights & modular switchboards",
+      "category": "electrical",
+      "additionalCategories": [],
+      "phone": "9850123478",
+      "city": "Pune",
+      "areas": [
+        "Baner",
+        "Balewadi",
+        "Pashan",
+        "Aundh"
+      ],
+      "pincodes": [
+        "411045",
+        "411021",
+        "411007",
+        "411045"
+      ],
+      "coordinates": {
+        "lat": 18.559,
+        "lng": 73.7868
+      },
+      "startingPrice": 229,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "experienceYears": 6,
+      "availability": "Available Tomorrow",
+      "isActive": true,
+      "badge": "Specialist",
+      "bio": "Focused on high-rise residential societies in Baner and Balewadi. Expert in heavy load balancing, false ceiling spot lights, BLDC fans, and modular switch replacements.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-05",
+      "userId": "user-prov-5",
+      "name": "CoolAir Solutions Pune (Vikram Deshmukh)",
+      "tagline": "Deep jet cleaning, gas pressure checks & compressor fix",
+      "category": "ac-repair",
+      "additionalCategories": [],
+      "phone": "9860112233",
+      "city": "Pune",
+      "areas": [
+        "Viman Nagar",
+        "Kalyani Nagar",
+        "Koregaon Park",
+        "Wadgaon Sheri"
+      ],
+      "pincodes": [
+        "411014",
+        "411006",
+        "411001",
+        "411014"
+      ],
+      "coordinates": {
+        "lat": 18.5679,
+        "lng": 73.9143
+      },
+      "startingPrice": 499,
+      "rating": 4.8,
+      "reviewCount": 189,
+      "experienceYears": 8,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Top Rated",
+      "bio": "Equipped with commercial pressure wash jet and digital refrigerant gauges. Solves low cooling, indoor coil ice buildup, and water dripping issues across East Pune.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-06",
+      "userId": "user-prov-6",
+      "name": "Deepak Kulkarni AC Engineering",
+      "tagline": "Inverter AC specialist, PCB diagnostics & copper piping",
+      "category": "ac-repair",
+      "additionalCategories": [],
+      "phone": "9922887766",
+      "city": "Pune",
+      "areas": [
+        "Aundh",
+        "Sangvi",
+        "Baner",
+        "Pimple Nilakh"
+      ],
+      "pincodes": [
+        "411007",
+        "411027",
+        "411045",
+        "411027"
+      ],
+      "coordinates": {
+        "lat": 18.558,
+        "lng": 73.8075
+      },
+      "startingPrice": 549,
+      "rating": 4.7,
+      "reviewCount": 112,
+      "experienceYears": 10,
+      "availability": "Available Tomorrow",
+      "isActive": true,
+      "badge": "Specialist",
+      "bio": "Expert diagnostics for Daikin, Voltas, LG, and Blue Star inverter units. Specializes in electronic inverter PCB fault clearing and nitrogen pressure testing.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-07",
+      "userId": "user-prov-7",
+      "name": "Amit More QuickFix Appliances",
+      "tagline": "Washing machines, frost-free refrigerators & microwaves",
+      "category": "appliance-repair",
+      "additionalCategories": [],
+      "phone": "9763445566",
+      "city": "Pune",
+      "areas": [
+        "Kalyani Nagar",
+        "Koregaon Park",
+        "Yerawada",
+        "Camp"
+      ],
+      "pincodes": [
+        "411006",
+        "411001",
+        "411006",
+        "411001"
+      ],
+      "coordinates": {
+        "lat": 18.5463,
+        "lng": 73.9034
+      },
+      "startingPrice": 249,
+      "rating": 4.8,
+      "reviewCount": 164,
+      "experienceYears": 9,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Top Rated",
+      "bio": "Doorstep repair for front load and top load washing machines, single/double door fridges, and convection microwaves. Transparent component pricing.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-08",
+      "userId": "user-prov-8",
+      "name": "Sunil Sutar Woodcraft",
+      "tagline": "Hydraulic hinges, locks, sliding wardrobes & bed repairs",
+      "category": "carpentry",
+      "additionalCategories": [],
+      "phone": "9823332211",
+      "city": "Pune",
+      "areas": [
+        "Hinjewadi",
+        "Wakad",
+        "Pimpri",
+        "Tathawade"
+      ],
+      "pincodes": [
+        "411057",
+        "411057",
+        "411018",
+        "411033"
+      ],
+      "coordinates": {
+        "lat": 18.5913,
+        "lng": 73.7389
+      },
+      "startingPrice": 199,
+      "rating": 4.7,
+      "reviewCount": 130,
+      "experienceYears": 11,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Specialist",
+      "bio": "Master carpenter specializing in soft-close hydraulic hinges, main door Godrej lock fittings, sagging wardrobe doors, and custom wooden modifications in Pune IT corridor.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-09",
+      "userId": "user-prov-9",
+      "name": "Priya Jadhav Home Hygiene",
+      "tagline": "Eco-friendly deep bathroom sanitation & sofa foam extraction",
+      "category": "home-cleaning",
+      "additionalCategories": [],
+      "phone": "9970771122",
+      "city": "Pune",
+      "areas": [
+        "Hadapsar",
+        "Magarpatta City",
+        "Amanora",
+        "Wanowrie"
+      ],
+      "pincodes": [
+        "411028",
+        "411028",
+        "411028",
+        "411040"
+      ],
+      "coordinates": {
+        "lat": 18.5089,
+        "lng": 73.9259
+      },
+      "startingPrice": 299,
+      "rating": 4.9,
+      "reviewCount": 240,
+      "experienceYears": 5,
+      "availability": "Available Today",
+      "isActive": true,
+      "badge": "Top Rated",
+      "bio": "Professional team with industrial wet & dry vacuums and single disc scrubbers. Specializes in stubborn tile scale removal, modular kitchen degreasing, and sofa shampooing.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    },
+    {
+      "id": "prov-10",
+      "userId": "user-prov-10",
+      "name": "Swachh Pune Deep Cleaning",
+      "tagline": "Kitchen chimney degreasing & full home spotless cleaning",
+      "category": "home-cleaning",
+      "additionalCategories": [],
+      "phone": "9890011223",
+      "city": "Pune",
+      "areas": [
+        "Kothrud",
+        "Karve Nagar",
+        "Warje",
+        "Sinhagad Road"
+      ],
+      "pincodes": [
+        "411038",
+        "411052",
+        "411058",
+        "411051"
+      ],
+      "coordinates": {
+        "lat": 18.4985,
+        "lng": 73.8182
+      },
+      "startingPrice": 349,
+      "rating": 4.8,
+      "reviewCount": 155,
+      "experienceYears": 6,
+      "availability": "Available Tomorrow",
+      "isActive": true,
+      "badge": "Fast Response",
+      "bio": "Dedicated deep cleaning service for kitchens, balconies, and full tenancy move-in/move-out handovers. Uses safe, non-toxic cleaning agents.",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ],
+      "createdAt": "2026-10-25T19:34:06.560Z"
+    }
+  ],
+  "bookings": [
+    {
+      "customerId": "guest-9765384586",
+      "customerName": "Demo Customer",
+      "customerPhone": "9765384586",
+      "customerAddress": "Flat 101, Anand Nagar, Kothrud",
+      "customerPincode": "411038",
+      "helperId": "helper-mvoylsxc-712",
+      "helperName": "Demo Plumber Plumbing Service",
+      "serviceCategory": "plumbing",
+      "problemDescription": "Kitchen washbasin tap is broken and leaking water",
+      "preferredDate": "2026-10-28",
+      "preferredTime": "10:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "Completed",
+      "id": "FN-76361",
+      "createdAt": "2026-10-26T07:52:55.246Z",
+      "updatedAt": "2026-10-26T07:52:55.272Z",
+      "workerNotes": "Washbasin tap valve repaired successfully.",
+      "finalPrice": 199
+    },
+    {
+      "customerId": "guest-9768639413",
+      "customerName": "Demo Customer",
+      "customerPhone": "9768639413",
+      "customerAddress": "Flat 101, Anand Nagar, Kothrud",
+      "customerPincode": "411038",
+      "helperId": "helper-mvoy7gpx-206",
+      "helperName": "Demo Plumber Plumbing Service",
+      "serviceCategory": "plumbing",
+      "problemDescription": "Kitchen washbasin tap is broken and leaking water",
+      "preferredDate": "2026-10-28",
+      "preferredTime": "10:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "Completed",
+      "id": "FN-17990",
+      "createdAt": "2026-10-26T07:41:46.196Z",
+      "updatedAt": "2026-10-26T07:41:46.228Z",
+      "workerNotes": "Washbasin tap valve repaired successfully.",
+      "finalPrice": 199
+    },
+    {
+      "customerId": "guest-9756597384",
+      "customerName": "Demo Customer",
+      "customerPhone": "9756597384",
+      "customerAddress": "Flat 101, Anand Nagar, Kothrud",
+      "customerPincode": "411038",
+      "helperId": "helper-mvo9tjid-814",
+      "helperName": "Demo Plumber Plumbing Service",
+      "serviceCategory": "plumbing",
+      "problemDescription": "Kitchen washbasin tap is broken and leaking water",
+      "preferredDate": "2026-10-28",
+      "preferredTime": "10:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "Completed",
+      "id": "FN-12110",
+      "createdAt": "2026-10-25T20:19:05.797Z",
+      "updatedAt": "2026-10-25T20:19:05.826Z",
+      "workerNotes": "Washbasin tap valve repaired successfully.",
+      "finalPrice": 199
+    },
+    {
+      "customerId": "guest-9792694258",
+      "customerName": "Demo Customer",
+      "customerPhone": "9792694258",
+      "customerAddress": "Flat 101, Anand Nagar, Kothrud",
+      "customerPincode": "411038",
+      "helperId": "helper-mvo9ct57-352",
+      "helperName": "Demo Plumber Plumbing Service",
+      "serviceCategory": "plumbing",
+      "problemDescription": "Kitchen washbasin tap is broken and leaking water",
+      "preferredDate": "2026-10-28",
+      "preferredTime": "10:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "Completed",
+      "id": "FN-16579",
+      "createdAt": "2026-10-25T20:06:05.089Z",
+      "updatedAt": "2026-10-25T20:06:05.120Z",
+      "workerNotes": "Washbasin tap valve repaired successfully.",
+      "finalPrice": 199
+    },
+    {
+      "id": "FN-84201",
+      "customerId": "user-cust-01",
+      "customerName": "Aditi Deshmukh",
+      "customerPhone": "9822123456",
+      "customerAddress": "Flat 402, Mayur Colony, Paud Road",
+      "customerCoordinates": {
+        "lat": 18.508,
+        "lng": 73.811
+      },
+      "helperId": "prov-01",
+      "helperName": "Ramesh Shinde Plumbing",
+      "problemDescription": "Kitchen tap mixer is continuously dripping water and main bathroom sink drain is draining very slowly.",
+      "preferredDate": "2026-10-27",
+      "preferredTime": "10:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "Requested",
+      "createdAt": "2026-10-25T09:30:00.000Z",
+      "updatedAt": "2026-10-25T09:30:00.000Z"
+    },
+    {
+      "id": "FN-84195",
+      "customerId": "user-cust-01",
+      "customerName": "Rohan Joshi",
+      "customerPhone": "9823678901",
+      "customerAddress": "Row House 12, Konark Nagar, Behind Phoenix Marketcity",
+      "customerCoordinates": {
+        "lat": 18.566,
+        "lng": 73.912
+      },
+      "helperId": "prov-05",
+      "helperName": "CoolAir Solutions Pune (Vikram Deshmukh)",
+      "problemDescription": "Split AC in master bedroom is blowing normal air instead of cool air, and water started trickling down the indoor unit.",
+      "preferredDate": "2026-10-26",
+      "preferredTime": "02:00 PM - 05:00 PM",
+      "estimatedPrice": 499,
+      "status": "Accepted",
+      "workerNotes": "Technician confirmed arrival around 2:30 PM with pressure gauge.",
+      "createdAt": "2026-10-24T14:15:00.000Z",
+      "updatedAt": "2026-10-25T08:00:00.000Z"
+    },
+    {
+      "id": "FN-84180",
+      "customerId": "user-cust-01",
+      "customerName": "Kavita Kulkarni",
+      "customerPhone": "9765567890",
+      "customerAddress": "23, Bhandarkar Road, Near Goodluck Cafe",
+      "customerCoordinates": {
+        "lat": 18.519,
+        "lng": 73.839
+      },
+      "helperId": "prov-03",
+      "helperName": "Suresh Joshi Electrical Works",
+      "problemDescription": "Main MCB keeps tripping whenever geyser or microwave is switched on. Need immediate load and wiring inspection.",
+      "preferredDate": "2026-10-26",
+      "preferredTime": "11:00 AM - 01:00 PM",
+      "estimatedPrice": 199,
+      "status": "In Progress",
+      "workerNotes": "Dispatched electrician with digital clamp meter.",
+      "createdAt": "2026-10-24T11:00:00.000Z",
+      "updatedAt": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "FN-84152",
+      "customerId": "user-cust-01",
+      "customerName": "Vikram Patil",
+      "customerPhone": "9922123987",
+      "customerAddress": "B-201, Blue Ridge Township, Phase 1",
+      "customerCoordinates": {
+        "lat": 18.588,
+        "lng": 73.737
+      },
+      "helperId": "prov-08",
+      "helperName": "Sunil Sutar Woodcraft",
+      "problemDescription": "Hydraulic hinges on two modular kitchen overhead shutters came loose, and study table drawer slide fell off track.",
+      "preferredDate": "2026-10-23",
+      "preferredTime": "03:00 PM - 06:00 PM",
+      "estimatedPrice": 199,
+      "status": "Completed",
+      "workerNotes": "Replaced 2 heavy duty hydraulic hinges and realigned drawer runners. Customer satisfied.",
+      "createdAt": "2026-10-23T08:20:00.000Z",
+      "updatedAt": "2026-10-23T17:45:00.000Z"
+    }
+  ],
+  "mode": "file"
+}
